@@ -8,10 +8,10 @@ elif 0 <= input < 5:
     print("Dobrou noc.")
 elif 5 < input < 9:
     print("Dobré ráno.")
-elif input == 12:
-    print("Dobré poledne.")
 elif 9 < input < 12:
     print("Dobré dopoledne.")
+elif input == 12:
+    print("Dobré poledne.")
 elif 12 < input < 17:
     print("Dobré odpoledne.")
 elif 17 < input < 22:
