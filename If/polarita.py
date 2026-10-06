@@ -8,4 +8,6 @@ else:
     if cislo ==0:
         print("Číslo je nula.")
     else:
-        print("Číslo je záporné.") 
+        print("Číslo je záporné.")
+        cislo = -cislo
+print(f"Absolutní hodnota čísla je: {abs(-cislo)}")

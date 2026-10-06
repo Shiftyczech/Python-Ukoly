@@ -1,4 +1,4 @@
-input = int(input("Kolik je hodin?: "))
+input = float(input("Kolik je hodin?: "))
 
 if input < 0:
     print("Hodina nemůže být záporná.")
