@@ -12,9 +12,9 @@ elif 9 < input < 12:
     print("Dobré dopoledne.")
 elif input == 12:
     print("Dobré poledne.")
-elif 12 < input < 17:
+elif 12 < input < 18:
     print("Dobré odpoledne.")
-elif 17 < input < 22:
+elif 18 < input < 22:
     print("Dobré večer.")
 elif 22 < input < 24:
     print("Dobrý noc.")
