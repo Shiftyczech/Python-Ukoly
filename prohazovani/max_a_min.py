@@ -8,12 +8,12 @@ max_val = a
 
 if b < min_val:
     min_val = b
-if b > max_val:
+elif b > max_val:
     max_val = b
 
 if c < min_val:
     min_val = c
-if c > max_val:
+elif c > max_val:
     max_val = c
 
 print(f"Nejmenší hodnota je {min_val}, největší hodnota je {max_val}")
